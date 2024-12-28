@@ -1,0 +1,127 @@
+
+
+
+/* Styling for the image at the top */
+.pic-1 {
+  position: absolute; 
+  top: 0; 
+  right: 90%; 
+  transform: translateX(-50%); 
+}
+
+
+
+.pic-1 img {
+  width: 100px; 
+  height: 100px;  
+}
+.pic-2 {
+  position: absolute; 
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+
+
+.pic-2 img {
+  width: 120px; 
+  height: 120px  
+}
+.pic-3 {
+  position: absolute; /* Position the div absolutely */
+  top: 50%;            /* Position it vertically at the center of the page */
+  right: 0;            /* Align the div to the right of the page */
+  transform: translateY(-50%); /* Adjust the vertical position to truly center it */
+}
+
+.pic-3 img {
+  width: 700px;  /* Resize the image to 50px wide */
+  height: 700px; /* Keep the aspect ratio intact */
+}
+
+.pic-4 {
+  position: absolute; 
+  bottom: 20px; 
+  left: 2%; 
+  transform: translateX(-50%); 
+}
+
+
+
+.pic-4 img {
+  width: 120px; 
+  height: 100px  
+}
+ .pic-5{
+  position: absolute; 
+  top: 39%;            
+  right: 0;           
+  transform: translateY(-50%);
+ }
+ .pic-5 img {
+  width: 120px; 
+  height: 100px  
+}
+.Position-well{
+  position: absolute;
+  padding: 10px;
+
+
+}
+.background-pic img {
+ height: 50px;
+ width: 40px;
+ display: block;
+}
+.pic-two{
+  position: relative;
+  top: 100px;
+}
+
+.title{
+  font-size: 55px;
+  
+  margin-left: 30px;
+  color: rgb(84, 7, 7);
+  font-style: italic;
+  padding-left: 20px;
+  margin-bottom: 0;
+  text-decoration: underline; /* Add underline */
+  text-decoration-color:rgb(255, 179, 38); 
+}
+.title2{
+  margin-bottom: 40px;
+  font-size: 26px;
+  width: 320px;
+  margin-left: 45px;
+  margin-bottom: 0;
+
+}
+.title3{
+  font-size: 26px;
+  margin-left: 45px;
+  margin-top: 5px;
+  width: 350px;
+  
+
+}
+.title4{
+  font-size: 26px;
+  margin-left: 45px;
+  color: brown;
+  font-style: italic;
+  text-decoration:  underline;
+}
+.button{
+  font-size: 22px;
+  height: 40px;
+  width: 100px;
+  margin-left: 45px;
+  border-radius: 5px;
+  color: rgb(70, 7, 7);
+  background-color: rgb(255, 166, 0);
+  border-width: 0;
+  font-weight: 500;
+  font-style: italic;
+}
